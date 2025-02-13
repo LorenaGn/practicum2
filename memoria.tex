@@ -1,0 +1,320 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{xcolor}               % Para colores personalizados
+\usepackage{graphicx}             % Para incluir imágenes
+\usepackage{geometry}             % Para ajustar márgenes
+\usepackage{titlesec}             % Para personalizar títulos
+\usepackage{fancyhdr}             % Para encabezados y pies de página
+\usepackage{hyperref}             % Para incluir URLs
+\usepackage[table,xcdraw]{xcolor} % Para incluir opciones de color en la tabla
+
+% Configuración de márgenes
+\geometry{left=3cm, right=3cm, top=2.5cm, bottom=2.5cm}
+
+% Personalización de títulos
+\titleformat{\chapter}[display]
+  {\Huge\bfseries}{}{0pt}{\Huge}
+
+% Encabezados y pies de página
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+
+
+% Portada
+\begin{titlepage}
+    \begin{center}
+        \vspace*{2cm}
+        
+        \includegraphics[width=0.3\textwidth]{resources/logo_ua.png}\\[1cm]
+        
+        \textcolor{gray}{\Huge \textbf{Memoria del Prácticum II}}\\[1cm]
+        \rule{10cm}{0.4mm} \\[1cm]
+        
+        {\Large Máster en Profesorado de Educación Secundaria Obligatoria y Bachillerato, Formación Profesional y Enseñanza de Idiomas}\\[1cm]
+        
+        \textbf{Especialidad:} Especialidad 3. Formación Profesional Cuerpo Técnico\\[0.5cm]
+        \textbf{Alumno/a:} Lorena González Núñez de Arenas\\[0.5cm]
+        \textbf{Curso académico:} 2024-2025\\[0.5cm]
+        \textbf{Centro de Prácticas:} CIPFP Canastell\\[0.5cm]
+        \textbf{Tutor/a del centro:} Antonio Verdejo Borja\\[0.5cm]
+        \textbf{Tutor/a de la Facultad:} Raúl Gutierrez Fresneda\\[0.5cm]
+        
+        \vfill
+        \textcolor{gray}{\Large \textbf{Universidad de Alicante}}\\
+        \textcolor{gray}{Facultad de Educación}\\
+        \textcolor{gray}{San Vicente del Raspeig, Alicante}\\
+        \textcolor{gray}{Fecha: \today}
+    \end{center}
+\end{titlepage}
+
+
+% Declaración de Responsabilidad
+\newpage
+\section*{DECLARACIÓN DE RESPONSABILIDAD Y AUTORÍA}
+D/Dª.: Lorena González Núñez de Arenas, con DNI 48620705Q, 
+estudiante del Máster universitario en profesorado de educación secundaria obligatoria y bachillerato, formación profesional y enseñanza de idiomas, 
+de la Universidad de Alicante, realizado en el período del 20 de enero de 2025 al 20 de febrero de 2025. \\
+
+
+DECLARA QUE:\\
+La Memoria del Prácticum denominado\\
+Memoria del Prácticum I\\
+ha sido desarrollado respetando los derechos intelectuales de terceros, conforme las citas que 
+constan en las páginas correspondientes y cuyas fuentes se incorporan en la bibliografía, así 
+como cualquier otro derecho, por ejemplo de imagen que pudiese estar sujeto a protección 
+del copyright.\\
+
+En virtud de esta declaración, afirmo que este trabajo es inédito y de mi autoría, por lo que me 
+responsabilizo del contenido, veracidad y alcance de la Memoria del Prácticum, y asumo las consecuencias administrativas y jurídicas 
+que se deriven en caso de incumplimiento de esta declaración.\\
+
+Para que así conste, firmo la presente declaración en \\
+Alicante, a \today. \\
+
+Fdo.:  \
+\vspace{4\baselineskip}\
+
+Este documento formará parte de la memoria de los Practicum o TFG o TFM correspondiente y 
+será la primera página de los mismos.\\
+
+\textsuperscript{*}	\textit{Documento aprobado en Junta de Facultad el 19 de octubre de 2017.}\\
+
+% Índice
+\renewcommand{\contentsname}{Índice}
+\tableofcontents
+\newpage
+
+% Introducción
+\chapter{Introducción}
+
+
+% Intervención
+\chapter{Intervención y actuación docente en la especialidad}
+
+
+    \section{Situación de aprendizaje}
+    Elaborar e implementar una situación de aprendizaje.
+
+    \begin{table}[]
+        \centering
+        \begin{tabular}{| p{0.6\linewidth} | p{0.35\linewidth} |}
+        \rowcolor[HTML]{86F1E0} 
+        \hline
+        \textbf{Módulo} & \textbf{Curso/Grupo}   \\
+        \hline
+        Instalaciones Domóticas del Ciclo de Técnico de Grado Medio en Instalaciones eléctricas y automáticas (familia Electricidad y Electrónica) & 2º curso / grupo de mañana \\
+        \hline
+        \end{tabular}
+    \end{table}
+
+
+    \begin{table}[]
+      \centering
+      \begin{tabular}{| p{0.95\linewidth} |}
+      \rowcolor[HTML]{86F1E0} 
+      \hline
+      \textbf{Título de la unidad de trabajo}   \\
+      \hline
+      Domótica de bajo coste: ¿comodidad inteligente o riesgo silencioso? \\
+      \hline
+      \end{tabular}
+    \end{table}
+
+    \\
+
+
+
+     - Título de la unidad de trabajo: Domótica de bajo coste: ¿comodidad inteligente o riesgo silencioso?
+    - Tempporalización y sesiones previstas: 1 sesión de 2h:45 minutos el jueves 6 de febrero de 8:00 a 10:45.
+    - Contextualización: 
+        -- Entorno: San Vicente del Raspeig es una localidad que forma parte del área metropolitana de Alicante, caracterizada por un entorno urbano a la par que un área industrial con demanda de técnicos electricistas. Además, el auge de la domótica a nivel particular, hace que se incremente la instalación de dispositivos domótcos de bajo coste en viviendas familiares sin tener en cuenta los riesgos de seguridad que puede conllevar este tipo de instalaciones.
+        -- Centro educativo: El CIPFP Canastell es un centro intregrado de ciclos de formación profesional centrado en el tejido empresarial de alrededores, en concreto en los polígonos industriales.
+        -- Del alumnado y grupo-clase: el grupo de estudiantes del módulo Instalaciones Domóticas del ciclo Instalaciones eléctricas y automáticas, turno de mañana, está compuesto por alumnado entre 17-25 años aproximadamente. El número de alumnos matriculados es de ¿28?, sin embargo, en el segundo trimestre el nivel de asistencia ha disminuido teniendo un número de presencialidad de unos 12-15 alumnos aprox. Hay alumnos que dan por perdida la asignatura aunque siguen asistiendo a clase. Otros, tienen un nivel mucho más bajo con respecto a los que van más adelantados.
+    - Justificación: Esta unidad de trabajo se centra en dar una visión actual de los riesgos de seguridad que pueden tener los dispositivos domóticos de bajo coste, analizando los posibles ataques, vulnerabilidades y cómo reducir éstos aplicando buenas prácticas. De esta forma, el alumnado puede adquirir conocimientos suficientes para asesorar a posibles clientes que les soliciten asesoramiento para realiar instalaciones domóticas.
+    - Introducción:
+    - Objetivos generales:
+    - Objetivos didácticos:
+    - Competencias generales:
+    - Competencias profesionales, personales y sociales
+    - Resultados de aprendizaje
+    - Criterios de evaluación
+    - Contenidos
+    - Elementos transversales
+    - Metodología:
+    - Sesión:
+        -- Objetivo de la sesión:
+        -- Duración:
+        -- Actividades:
+            --- Actividad 1: Presentación de conceptos, características de los dispositivos domóticos de bajo coste, reflexión sobre vulnerabiidades y consejos básicos para reducir riesgos. Será un trabajo en grupo-clase donde todo el alumnado participará en las reflexiones y cuestiones planteadas. La presentación será proyectada en la pizarra electrónica, teniendo varios puntos de interacción con el alumando para mantener el interés y la atención: al inicio de la presentación, y a modo de rompehielo, se utilizará un código QR a través del cual los alumnos podrán participar en una nube de palabras a través de su dispositvo móvil; en otro momento, se lanzarán interrogantes sobre cuestiones relacionadas con los riesgos de seguridad y saldrán a la pizarra para apuntar lo que se les ha ocurrido.
+            --- Actividad 2: Actividad Práctica de una instalación domótica básica. Con unos pocos dispositivos (como un router, y una bombilla inteligente o similar) se intentará configurar una red simulando una red insegura donde los alumnos podrán "hackear" la red y aprender por qué es importante tener en consideración los aspectos de seguridad. Intentarás conectar la bombilla inteligente a la red, pasando por la instalación de la app correspondiente que les solicitará permisos de WiFi, Bluetooth, Localización, etc. Se realizará con un móvil que no sea del propio alumnado para no comprometer su provacidad. De esta forma, podrán analizar y reflexionar sobre por qué pueden estas aplicaciones solicitar dichos datos, si son seguros, si respetan la privacidad, etc.
+                prueba 1: router huawei (vodafone 2012) no conectado a Internet, configurado con un SSID denominado "RedDomotica" con contraseña débil (12345678). Bombilla inteligente y enchufe inteligente obramart. 
+                    - Instalación de la app Tuya Smart (se requiere registro)
+                    - Instalación de la app NavigationSmartHome (para la bombilla) (se requiere registro)
+                    - La instalación de las app requiere acceso a WiFi, Bluetooth y Localización.
+                    - El móvil se conecta a la red RedDomotica, la cual no tiene acceso a Internet.
+                    - Se enciende el dispositivo, primero la bombilla y luego el enchufe por separado. Con el móvil conectado a la red "RedDomotica" se busca el dispositivo, se detecta dentro de la red, y se intenta emparejar sin éxito. Hipotesis: Parece ser que la app debe tener acceso a Internet.
+
+                prueba 2: router huawei (vodafone 2012) configurado como switch, con el mismo SSID y mismo password, ahora con acceso a Internet. Bombilla inteligente y enchufe inteligente obramart. 
+                    - Instlada la app Tuya Smart
+                    - El móvil se conecta a la red RedDomotica, la cual no tiene acceso a Internet.
+                    - Misma operación que en el caso anterior. Parece ser que el indicador de progreso avanza algo más, pero falla igualmente el emparejamiento.
+
+                prueba 3: router tp-link. Configurado con SSID "RedDomotica" y contraseña débil, sin acceso a Internet. Enchufe inteligente Selly Plug y app de la misma marca. 
+                    - Instalación de la app Shelly (requiere registro: creación de la cuenta clasedomotica6@gmail.com - Qwerty12345!)
+                    - Se conecta el enchufe inteligente a la corriente. 
+                    - Se conecta el móvil a RedDomotica
+                    - Se intenta asignar la red RedSomotica al enchufe.
+        -- Evaluación:
+
+
+
+
+
+% Autoevaluación y conclusiones
+\chapter{Autoevaluación y Conclusiones}
+
+% Bibliografía
+\chapter*{Bibliografía}
+\begin{itemize}
+  \item CIPFP Canastell. "Organización del centro". Recuperado de: \url{https://portal.edu.gva.es/cipfpcanastell/informacion-general/organizacion-del-centro/}
+  \item Proyecto de Dirección CIPFP Canastell 2022-2026. Documento interno del centro.
+\end{itemize}
+
+
+
+\end{document}
+
+
+
+
+%     \section{Contexto socioeducativo del centro}
+
+%     Realidad social:
+%         - ¿cuál es el nivel económico del alumnado o las familias?
+%         - ¿se puede saber el valor que estas familias le dan a la educación?
+%         - cómo plasmar la parte cultural?
+%         - enganchados al móvil? 
+%         - Ejemplo: le pregunto a un alumno que está sentado si él no tiene panel donde trabajar, y me comenta que necesita un portátil para realiar el presupuesto, el acto reflejo es mirar el móvil.
+
+
+%     Necesidades especiales:
+%         -  No se hacen adaptaciones, sólo los desdobles
+
+%     Nivel educativo:
+%         - En el aula se puede observar diferentes niveles, sin embargo, hay un "gap" muy amplio entreo el alumnado que va más adelantado con respecto al que va más atrasado.
+
+%     Nivel lingüistico:
+%         - Diverso
+ 
+%     \subsection{Instituciones y organismos con los que colabora el centro}
+%     - Tiene un aula LG
+%     - Fundación FP Empresa
+%     - Ayuntamiento
+%     - Asociación ANDA y ¿APSA?
+%     - Feria con la concejalía para dar a conocer los ciclos que se imparten
+%     - Skills de FP 
+%     - Consejo social -> empresas, Universidad
+
+%     \section{Notas}
+
+%     Hay desdobles
+
+%     1º GM elect. --> Automatismos industriales
+
+%     2º GM --> Instalaciones Domóticas
+
+%     1ª GS --> Mecatrónica --> Sistemas eléctricos y electrónicos
+
+
+%     CENTRO
+
+%     - 4 orientadores
+
+%     -- la básica: 14-16 muchas necesidades
+
+%     -- a los 15-16 tienen que ser conscientes de sus barreras, ir retirando medidas y que vayan aprendiendo a ir solos
+
+%     -- herramientas para saber elegir
+
+
+%     \noindent\hrule
+
+
+%     - 4 jefes de estudios
+
+%     - es uno de los centros de FP más grandes de la CV
+
+%     - Las necesidades de cada dpto son diferentes
+
+
+
+
+%     TODO FP
+
+%     ceie --> dosier FP
+%     PT -- profe tecnico
+%     PS -- profe secundaria
+
+
+
+
+%     % \section{Bibliografía}
+%     % khiu
+%     % \printbibliography
+%     % \nocite{*}
+
+
+  
+
+    
+    
+
+%     \section{Organización, Gestión y Recursos}
+
+%     \subsection{Elementos estructurales}
+
+%     - Varios turnos: puede ser turno mañana y tarde, e incluso en algunos módulos hay verios turnos mañana (mecánica)
+%     - Colaboración docente, desdobles, 
+%         - interinidad? etc.
+
+
+%     - Espacios limitados que tienen que aprovechar como pueden. Áreas que se tienen que modificar para poder trasnformarlas en almacén, como la instancia contigua al aula del taller de electricidad (GM 1º), que era un espacio abierto, han puesto una estructura o techado de "uralita" para convertirlo en almacén (mal aprovechamiento energético, mucho calor/frío). Tienen componentes eléctricos, electrónicos, domóticos, paneles, con un riesgo "moderado" de que ante un acontecimiento atmosférico se pueda desprender, inundar, etc. conllevando la pédida de material correspondiente.
+
+%     - Conocer y analizar la organización y funcionamiento del centro:
+%         -- Asociaciones representativas de la comunidad escolar (AMPAS, Asociaciones de alumnado).
+%         --> ¿Hay delegación de alumnos?
+
+
+
+%     \subsection{Etapas y modalidades educativas que ofrece el centro y unidades/grupos que integran cada una de ellas}
+
+%     \subsection{Organización del Centro}
+
+%     La estructura del centro, como se puede apreciar en \cite{OrgCentro}, es la siguiente:
+%     \graphicspath{{../pdf/}{resources/organigrama-1-1024x575-2.png}}
+
+
+
+
+%     \subsection{Instrumentos para la gestión de la autonomía del centro: proyectos, planes y programas}
+
+%     \section{Análisis y reflexión personal sobre la organización y gestión del centro en base al contexto socioeducativo}
+
+%     \section{Autoevaluación y conclusiones}
+
+%     \subsection{Valoración personal / sensaciones}
+%     Aunque al inicio, mis expectativas eran las de no saber con qué me iba a encontrar, ya que durante el tiempo de prácticas y previamente, había escuchado comentarios sobre la actitud del alumnado en general en los últimos años y estaba asustada. Sin embargo, cuando entré en la primera clase, no era para nada lo que había imaginado. La actitud de l@s alumn@s era positiva, tenían ganas de trabajar, motivación. Fue una clase práctica del ciclo de macatrónica (1º), donde trabajaban en parejas sobre unos paneles montando circuitos y probando diferentes componentes. Estaba esperando a ver cómo eran los del ciclo medio de electricidad, pero la sensación también fue buena. Entendiendo un poco el contexto social actual, la clase no fue en absoluto disruptiva. Sí que es verdad, que tienen sus momentos, y al inicio, ante una persona nueva que entra en el aula, el comportamiento podría verse más cohibido. En algún momento, mientras el profesor explicaba alguna cosa, hubieron situaciones en las que los alumnos no escuchaban y hablaban entre sí, algunos en relación con los problemas que estaban desarrollando y tenían que entregar, otros no. Hubo una situación en la que se tuvo que poner una amonestación porque inició un video que no tenía nada que ver con la asignatura con el volumnen puesto interrumpiendo la clase.
+
+%     \subsection{Elementos}
+
+
+
+
+%     \section{Referencias}
+%     \printbibliography
+%     \nocite{*}
+
+% \end{document}
